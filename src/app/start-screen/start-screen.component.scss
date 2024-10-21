@@ -1,0 +1,30 @@
+.start-screen {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    >img {
+        height: 100vh;
+    }
+}
+
+.start-button {
+    position: absolute;
+    left: 50px;
+    right: 0;
+    bottom: 25px;
+    display: flex;
+    justify-content: center;
+    >img {
+        width: 180px;
+        height: auto;
+        
+        &:hover {
+            filter: brightness(1.75);
+            cursor: pointer;
+        }
+    }
+}
